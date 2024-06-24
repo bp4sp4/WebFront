@@ -1,0 +1,60 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    vertical-align: top;
+    height: 750px;
+    border: 1.5px solid black;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 .month {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* 통합 */
+.day {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* 주 */
+.day__week {
+    height: 50px;
+}
+
+/* 마우스 올려놨을때 */
+.day:hover {
+    background-color: #b3cffb;
+    transition: all ease 1s 0s;
+}
+
+/* 일요일 */
+.day__red {
+    color: red;
+}
+
+
+/* 토요일 */
+.day__blue {
+    color: blue;
+}
+
+/* 공휴일 */
+.day__spek {
+    color: red;
+}
+
+/* 당일 */
+.day__today {
+    background-color: rgb(247, 247, 185) !important;
+    font-weight: bold;
+}

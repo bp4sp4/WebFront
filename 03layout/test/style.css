@@ -1,0 +1,173 @@
+.wrap {
+    display: flex;
+}
+
+.box__size {
+    width: 150px;
+    height: 150px;
+}
+
+.box__margin {
+    margin: 10px 10px 10px 0;
+}
+
+.wrap2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: red;
+}
+
+
+.box2 {
+    background-color: green;
+}
+
+
+.box3 {
+    background-color: yellow;
+}
+
+
+.box4 {
+    background-color: blue;
+}
+
+/* =============================================================== */
+
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxs1 {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(32, 32, 150);
+}
+
+.boxs2 {
+    width: 1050px;
+    height: 100px;
+    background-color: rgb(239, 156, 184);
+}
+
+.boxs3 {
+    width: 1200px;
+    height: 500px;
+    background-color: rgb(104, 28, 104);
+}
+
+.boxs4 {
+    width: 1200px;
+    height: 100px;
+    background-color: orange;
+}
+
+/* ------------------------------------------- */
+
+.item__wrap {
+    width: 1200px;
+}
+
+.item1 {
+    width: 1200px;
+    background-color: #017747;
+    height: 150px;
+}
+
+.sub__item__wrap {
+    display: flex
+}
+
+.item2 {
+    width: 900px;
+    height: 500px;
+    background-color: #9ee8a2;
+}
+
+.item3 {
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+}
+
+.item4 {
+    width: 1200px;
+    height: 100px;
+    background-color: orange;
+}
+
+
+/* ---------------------------- */
+
+.wrap__all {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+}
+
+header .logo {
+    width: 150px;
+    background-color: darkorange;
+}
+
+header nav {
+    width: 1050px;
+    background-color: lightskyblue;
+}
+
+.main__wrap {
+    display: flex;
+}
+
+.contents {
+    width: 600px;
+    height: 400px;
+    background-color: darkgrey;
+}
+
+.article1 {
+    width: 600px;
+    height: 200px;
+    background-color: purple;
+}
+
+.article2 {
+    width: 600px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+footer {
+    display: flex;
+}
+
+.footer__logo {
+    width: 150px;
+    height: 40px;
+    background-color: #322a2a;
+    color: white;
+}
+
+.copyright {
+    width: 900px;
+    height: 40px;
+    background-color: #abdfad;
+}
+
+.footer__logo2 {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+}

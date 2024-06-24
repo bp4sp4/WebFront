@@ -1,0 +1,15 @@
+.id__input {
+    width: 150px;
+    height: 30px;
+    font-size: 23px;
+}
+
+.password__input {
+    width: 100px;
+    height: 25px;
+}
+
+.song__table {
+    width: 300px;
+    height: 200px;
+}
