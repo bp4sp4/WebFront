@@ -13,6 +13,10 @@
     margin: 0 auto;
 }
 
+.nav {
+    width: 300px;
+}
+
 
 header {
     width: 1200px;
@@ -23,7 +27,16 @@ header {
 }
 
 .input-group {
-    width: 250px;
+    width: 600px;
+    height: 61px;
+}
+
+.input-group-text {
+    height: 45px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .search {
@@ -58,4 +71,19 @@ header {
 
 .main-menu {
     background-color: #d2d2d2;
+}
+
+.container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e7e6e6;
+    padding: 0 15px 15px 25px
+}
+
+.item {
+    flex: 1 1 30%;
+}
+
+.title-tube {
+    padding-left: 15px;
 }
