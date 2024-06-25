@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 1200px;
+}
+
+.head {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.item {
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.sub-title {
+    margin-top: -1.5rem;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.list-item {
+    display: flex;
+}
+
+.list-items {
+    margin-right: 50px;
+}
