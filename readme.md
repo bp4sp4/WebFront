@@ -1,6 +1,14 @@
 # WebFront 24/06/18(화) 시작 - 모르는 지식 적기
 
 <h3>24/06/24</h3>
+<h2>JavaScript</h2>
+
+- JavaScript
+  - alert("Hello world")
+  - let (지역변수)
+  - var (전역변수)
+
+<h3>24/06/24</h3>
 
 <h2>Bootstrap</h2>
 

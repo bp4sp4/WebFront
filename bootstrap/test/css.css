@@ -52,10 +52,6 @@ header {
     display: flex;
 }
 
-.list-items {
-    margin-right: 50px;
-}
-
 .main-menu {
-    background-color: #d2d2d2;
+    background-color: #e5e5e5;
 }

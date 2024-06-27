@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 기본 문법</title>
+</head>
+
+<body>
+
+    <script>
+        // alert("Hello world")
+
+        // 변수
+        // 지역변수
+        let text = "Hello world"
+        let number = 10;
+
+        // alert(number);
+        console.log("text : " + text);
+        console.log(number);
+
+        // 조건문
+        // 정수 비교
+        if (number == 10) {
+            console.log("10입니다.")
+
+            let local = 100;
+            var global = 200;
+        }
+
+        console.log(global)
+
+        // 문자열 비교
+        if (text == "Hello world!!") {
+            console.log("text는 hello world!!다");
+        }
+
+        // 문자열 정수와 정수 비교
+
+        let stringNumber = "10"
+        let intNumber = 10;
+
+        if (stringNumber == intNumber) {
+            console.log("문자열과 정수는 같다");
+        }
+
+        // 타입까지 일치 비교
+        if (stringNumber === intNumber) {
+            console.log("두 값은 타입까지 일치한다");
+        }
+
+        // 비어있는 변수 처리
+        let empty;
+        console.log(empty) // undefined
+
+        let nullVariable = null;
+        console.log(nullVariable);
+
+        if (empty == nullVariable) {
+            console.log("둘다 비어있다.");
+        }
+
+        if (empty == null) {
+            console.log("empty는 null이다.")
+        }
+
+        if (nullVariable == undefined) {
+            console.log("undefined 이다!");
+        }
+    </script>
+
+</html>
