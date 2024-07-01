@@ -1,5 +1,14 @@
 # WebFront 24/06/18(화) 시작 - 모르는 지식 적기
 
+<h3>24/07/01</h3>
+<h2>JQuery</h2>
+
+- JQuery
+
+- 버튼을 클릭했을때 수행한 기능을 등록
+- event
+- click event 가 발생 했을 때 수행할 기능 등록
+
 <h3>24/06/24</h3>
 <h2>JavaScript</h2>
 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<label>비밀번호 : </label><input type="password" id="password1">
+<label>비밀번호 확인 : </label><input type="password" id="password2">
+<button id="confrimBtn">확인</button>
+<hr>
+<input type="text" id="word"><button type="button" id="checkBtn">확인</button>
+
+<body>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script>
+
+
+
+        $(document).ready(function () {
+            $('#confrimBtn').on('click', function () {
+                var password1 = $('#password1').val();
+                var password2 = $('#password2').val();
+
+                if (!password1 || !password2) {
+                    alert('비밀번호를 입력해주세요.');
+                } else if (password1 === password2) {
+                    alert('확인 완료');
+                } else {
+                    alert('비밀번호가 일치하지 않습니다.');
+                }
+            });
+        });
+
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#checkBtn").on("click", function () {
+                let bannedWords = ["십장생", "시베리아", "조카신발", "쌍쌍바", "십원짜리"];
+
+                for (let i = 0; i < bannedWords.length; i++) {
+                    if (bannedWords[i] == $("#word").val()) {
+                        alert("금칙어가 포함되어 있습니다. 검색할 수 없습니다.")
+                    }
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
