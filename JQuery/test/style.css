@@ -1,0 +1,12 @@
+#box {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+#schoolInput,
+#companyInput {
+    display: none;
+    margin-top: 10px;
+}

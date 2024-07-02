@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 다양한 Event</title>
+</head>
+
+<body>
+
+    <h3>좋아 하는 동물을 고르세요</h3>
+    <label><input type="radio" name="animal" value="dog">개</label>
+    <label><input type="radio" name="animal" value="cat" id="catInput">고양이</label>
+    <label><input type="radio" name="animal" value="lion">사자</label>
+    <br>
+    <button type="button" id="checkCatBtn">고양이 선택</button>
+    <button type="button" id="cancleBtn">선택 해제</button>
+
+    <h3>사이트 이동</h3>
+    <select id="siteSelect">
+        <option value="naver">Google</option>
+        <option value="google">Naver</option>
+        <option value="daum">Daum</option>
+    </select>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#siteSelect").on("change", function () {
+                let site = $(this).val();
+                if (site == "naver") {
+                    // 페이지 이동
+                    location.href = "https//naver.com"
+                } else if (site == "google") {
+                    location.href = "https//google.com"
+                } else if (site == "daum") {
+                    location.href = "https//daum.com"
+                }
+            })
+
+
+            $("#checkCatBtn").on("click", function () {
+                $("#cancleBtn").on("click", function () {
+                    $("input[name='animal']").prop("checked", false)
+                })
+
+                // 고양이 라디오 박스 선택
+                // $("#catInput").attr("checked", true);
+                // radio, checkbox, select
+                // checked, selected
+                $("#catInput").prop("checked", true)
+            })
+
+            $('input[name="animal"]').on('change', function () {
+                // 선택된 동물 alert으로 띄우기
+                // let animal = $("input[name='animal']:checked").val();
+                let animal = $(this).val();
+                alert(animal);
+            })
+
+
+        });
+    </script>
+</body>
+
+</html>
